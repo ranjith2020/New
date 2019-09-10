@@ -1,0 +1,470 @@
+{
+"LoginScreen":{
+  "LoginButton":{
+     "IOS":{
+       "type":"",
+       "path":""
+        },
+      "Android":{
+         "type":"androiduiautomator",
+         "path":"text(\"Log In\")"
+        }
+      },
+      
+  "UserNameField":{
+     "IOS":{
+        "type":"accessibilityId",
+        "path":"Username or Email Login"
+     },
+     "Android":{
+        "type":"accessibilityId",
+        "path":"Login"
+     }
+    },
+          
+ "PasswordField":{
+     "IOS":{
+        "type":"accessibilityId",
+        "path":"Password Password Forgot?"
+     },
+     "Android":{
+        "type":"accessibilityId",
+        "path":"Password"
+     }
+    },
+    
+  "UserNameButton":{
+     "IOS":{
+        "type":"xpath",
+        "path":"(//XCUIElementTypeOther[@name=\"Log In\"])[2]"
+     },
+     "Android":{
+        "type":"androiduiautomator",
+        "path":"text(\"Log In\")"
+       }
+     },
+    
+     "AllowLocationButton":{
+       "IOS":{
+        "type":"xpath",
+        "path":"(//XCUIElementTypeOther[@name=\"Allow Location\"])[2]"
+       },
+     "Android":{
+        "type":"androiduiautomator",
+        "path":"text(\"Allow Location\")"
+       }    
+     },
+     
+     "AlwaysAllowButton":{
+       "IOS":{
+        "type":"accessibilityId",
+        "path":"Always Allow"
+       },
+     "Android":{
+        "type":"",
+        "path":""
+       }    
+     },
+     
+     "AlwaysNotificationsButton":{
+       "IOS":{
+        "type":"xpath",
+        "path":"(//XCUIElementTypeOther[@name=\"Allow Notifications\"])[2]"
+       },
+     "Android":{
+        "type":"",
+        "path":""
+       }    
+     },
+     
+     
+     
+     "MyJobsGetTitle":{
+       "IOS":{
+        "type":"",
+        "path":""
+       },
+     "Android":{
+        "type":"androiduiautomator",
+        "path":"text(\"My Jobs\")"
+       }    
+     }
+     
+  },
+  
+ "CreateJobScreen"{
+     
+     "NavigateCreateJob":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":""
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"\")"
+         } 
+       },
+       
+      
+     "Account":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Account "
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Account\")"
+         } 
+       },
+       
+       "AccountSearch":{
+        "IOS":{
+           "type":"xpath",
+           "path":"//XCUIElementTypeOther[@name=\"Search\"]/XCUIElementTypeTextField"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+       "PaymentType":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Payment Type "
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Payment Type\")"
+         } 
+       },
+       "PO":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"PO"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       "CallerName":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Caller Name"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       "CallerPhone":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Caller Phone"
+        },
+         "Android":{
+            "type":"accessibilityId",
+            "path":""
+         } 
+       },
+       "CustomerName":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Customer Name"
+        },
+         "Android":{
+            "type":"xpath",
+            "path":"//android.view.ViewGroup[7]/android.widget.EditText"
+         } 
+       },
+       "CustomerPhone":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Customer Phone"
+        },
+         "Android":{
+            "type":"xpath",
+            "path":"//android.view.ViewGroup[6]/android.view.ViewGroup[1]/android.widget.EditText"
+         } 
+       },
+        "ETA":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"ETA "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "Service":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Service "
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Service\")"
+         } 
+       },
+        "ClassType":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Class Type "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "Driver":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Driver "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "Truck":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Truck "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "PickupLocation":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Pickup Location "
+        },
+         "Android":{
+            "type":"xpath",
+            "path":"(//[@name=\"Pickup Location\"][2])"
+         } 
+       },
+       "PickupLocationTextBox":{
+        "IOS":{
+           "type":"xpath",
+           "path":"//XCUIElementTypeOther[@name=\"Search\"]/XCUIElementTypeTextField"
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Search\")"
+         } 
+       },
+       
+        "PickupLocationType":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Pickup Location Type "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "PickupName":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Pickup Name"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "PickupNumber":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Pickup Number"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+       "DropoffLocation":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Dropoff Location "
+        },
+         "Android":{
+            "type":"xpath",
+            "path":"(//[@name=\"Dropoff Location\"][2])"
+         } 
+       },
+
+     "DropoffLocationTextBox":{
+        "IOS":{
+           "type":"xpath",
+           "path":"//XCUIElementTypeOther[@name=\"Search\"]/XCUIElementTypeTextField"
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Search\")"
+         } 
+       },
+     
+       
+        "DropoffLocationType":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Dropoff Location Type "
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Dropoff Location Type\")"
+         } 
+       },
+        "DropoffName":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Dropoff Name"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "DropoffNumber":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Dropoff Number"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+        "Make":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Make "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+        "Model":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Model "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+        "Year":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Year "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+        "Color":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Color "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+        "Vin":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"VIN "
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+        "License":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"License"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+        "Odometer":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Odometer"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+        "Internal Notes":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Internal Notes"
+        },
+         "Android":{
+            "type":"",
+            "path":""
+         } 
+       },
+       
+       "CreateButton":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Create"
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Create\")"
+         } 
+       },
+       
+       "CreateJobTitle":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Pending"
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Pending\")"
+         } 
+       },
+         
+         "NavigateDispatch":{
+        "IOS":{
+           "type":"accessibilityId",
+           "path":"Dispatch"
+        },
+         "Android":{
+            "type":"androiduiautomator",
+            "path":"text(\"Dispatch\")"
+         } 
+       }     
+       
+ } 
+  
+  
+}
